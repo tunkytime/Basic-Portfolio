@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    background: green;
+    border-bottom: 1px solid black;
+}
+
+.name {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    width: 285px;
+    float: left;
+}
+
+.container {
+    height: 342px;
+    position: relative;
+    background: black;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.about-me {
+    background: red;
+    width: 700px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: relative;
+    top: 40px;
+}
+
+nav {
+    background: red;
+    position: relative;
+    top: 35px;
+    padding: 10px;
+    float: right;
+}
+
+footer {
+    background: red;
+    width: 960px;
+    margin: 0 312px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 7px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+}
