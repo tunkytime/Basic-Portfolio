@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* text styles */
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+p, a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+}
+
+p {
+	line-height: 28px;
+}
+
+/* clear floats after main content */
+
+.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+
+footer p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+}
+
+/* header and navigation bar */
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    background: green;
+	background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.name {
+    background: #4aaaa5;
+    color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 30px;
+    float: left;
+	font-size: 32px;
+	font-weight: bold;
+	position: relative;
+	top: -8px;
+	height: 
+}
+
+nav {
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    float: right;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	paddding: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px 30px 30px;
+}
+
+li a:hover {
+	color: #4aaaa5;
+}
+
+/* main content */
+
+.container {
+	border-top: 2px solid #ddd;
+    height: 700px;
+    position: relative;
+    background-image: url("images/bg-pixel.png");
+    width: 100%;
+	position: fixed;
+	left: 0;
+	top: 96px;
+}
+
+.main-image {
+	width: 175px;
+	margin: 13px 15px 15px 2px;
+	float: left;
+}
+
+.about-me {
+    background: #fff;
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    position: relative;
+    top: 40px;
+}
+
+hr {
+	border: 1px solid #ccc;
+}
+
+footer {
+    background: #666666;
+	color: white;
+    padding-top: 25px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+	position: fixed;
+	width: 100%;
+    bottom: 0;
+	left: 0;
+}
