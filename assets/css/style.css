@@ -47,10 +47,11 @@ header {
 	background: #fff;
 }
 
-.name {
+.name a {
     background: #4aaaa5;
     color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-decoration: none;
     padding: 30px;
     float: left;
 	font-size: 32px;
@@ -129,7 +130,7 @@ li a:hover {
 .contact {
     background: #fff;
     width: 960px;
-	height: 550px;
+	height: 570px;
     margin: 0 auto;
     padding: 10px 20px;
     position: relative;
@@ -159,8 +160,32 @@ input[type=submit] {
 	color: white;
 	padding: 8px 20px;
 	border: none;
-	border-raduis: 4px;
+	border-radius: 4px;
+	box-shadow: 0 5px #ccc;
 }
+
+input[type=submit]:hover {
+	background: black;
+	color: white;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px #ccc;
+}
+
+input[type=submit]:active {
+	background: black;
+	color: white;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 3px #bbb;
+	transform: translateY(4px);
+}
+
+/* main content cont. */
 
 hr {
 	border: 1px solid #ccc;
@@ -170,6 +195,8 @@ hr {
 	margin: 30px 50px 0 0;
 	float: left;
 }
+
+/* footer */
 
 footer {
     background: #666666;
