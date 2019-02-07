@@ -142,7 +142,7 @@ li a:hover {
     width: 960px;
 	height: 860px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 25px;
     position: relative;
     top: 40px;
 }
@@ -157,6 +157,22 @@ li a:hover {
     top: 40px;
 }
 
+hr {
+	border: 1px solid #ccc;
+}
+
+.project-img {
+	margin: 30px 12px 0 12px;
+	float: left;
+	width: 278px;
+	box-shadow: 5px 10px 10px lightgrey;
+}
+
+.project-img:hover {
+	box-shadow: 5px 10px 10px lightgrey;
+	transform: translateY(7px);
+}
+	
 /* contact form */
 
 input[type=text], select, textarea {
@@ -203,17 +219,6 @@ input[type=submit]:active {
 	cursor: pointer;
 	box-shadow: 0 3px #bbb;
 	transform: translateY(4px);
-}
-
-/* main content cont. */
-
-hr {
-	border: 1px solid #ccc;
-}
-
-.project-img {
-	margin: 30px 50px 0 0;
-	float: left;
 }
 
 /* footer */
